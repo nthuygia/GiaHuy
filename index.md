@@ -34,4 +34,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://www.giahuy.net/about) or [contact support](https://www.giahuy.net/contact) and we’ll help you sort it out.
+Having trouble with Pages? Check out our [about](https://www.giahuy.net/about) or [contact](https://www.giahuy.net/contact) and we’ll help you sort it out.
