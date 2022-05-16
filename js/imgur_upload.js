@@ -72,8 +72,10 @@
             xhttp = null;
         },
         createDragZone: function () {
-            var input;
+            var p1, p2, input;
 
+                p1 = this.createEls('p', {}, '');
+                p2 = this.createEls('p', {}, '');
             input = this.createEls('input', {type: 'file', className: 'input', accept: 'image/*'});
 
             Array.prototype.forEach.call(this.infoimg, function (zone) {
