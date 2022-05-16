@@ -72,10 +72,8 @@
             xhttp = null;
         },
         createDragZone: function () {
-            var p1, p2, input;
+            var input;
 
-                p1 = this.createEls('p', {}, 'Kéo file ảnh vào đây');
-                p2 = this.createEls('p', {}, 'Hoặc click để chọn ảnh');
             input = this.createEls('input', {type: 'file', className: 'input', accept: 'image/*'});
 
             Array.prototype.forEach.call(this.infoimg, function (zone) {
@@ -93,7 +91,7 @@
 
             div = this.createEls('div', {className: 'loading-modal'});
             table = this.createEls('table', {className: 'loading-table'});
-            img = this.createEls('img', {className: 'loading-image', src: 'https://firebasestorage.googleapis.com/v0/b/huydc-090288.appspot.com/o/Images%20Upload%2Floading-spin.svg?alt=media&token=8a1fd8dc-30b2-4b74-acc6-9e4ce55a89b0'});
+            img = this.createEls('img', {className: 'loading-image', src: 'https://cdn.giahuy.net/img/loading-spin.svg'});
 
             div.appendChild(table);
             table.appendChild(img);
